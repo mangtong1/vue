@@ -92,8 +92,9 @@ $browser: null;
     }
 }
 
-body, dl, dd, h1, h2, h3, h4, h5, h6, p, form, figure, figcaption {
+body, dl, dd, h1, h2, h3, h4, h5, h6, p, form, figure, figcaption,ul,li {
     margin:0px;
+    padding: 0
 }
 /* 改变盒子模型 */
 section, article, nav, aside, footer, header, div, p, ul, li, input, textarea {

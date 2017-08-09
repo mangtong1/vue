@@ -23,14 +23,16 @@
 @import "../../common/css/reset";
 
 .nav-list{
-
+	
 	display:flex;
 	.nav-item{
 		flex:1;
+		text-align:center;
+		padding-bottom:10px
 
 	};
 	.router-link-active{
-		border:1px solid red
+		border-bottom:1px solid red
 	}
 }
 
